@@ -61,6 +61,3 @@ Give a ⭐️ if you like this project!
 - W3schools
 - freeCodeCamp
 - Main icon designed by <a href="https://www.flaticon.es/icono-gratis/bonsai_1500021" title="smalllikeart">smalllikeart</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a>
-
-
-

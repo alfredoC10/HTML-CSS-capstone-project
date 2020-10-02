@@ -1,0 +1,67 @@
+/* Helvetica Neue font */
+@import url(//db.onlinewebfonts.com/c/81d87eba2f25b790803c324963f02063?family=Helvetica+Neue+LT+Com);
+
+@font-face {font-family: "Helvetica Neue LT Com"; src: url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.eot"); src: url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.woff") format("woff"), url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.svg#Helvetica Neue LT Com") format("svg"); }
+
+
+/* Gotham Rounded light font */
+@import url(//db.onlinewebfonts.com/c/1549fe8fd297f1e6501a3d6ad7f77394?family=Gotham+Rounded);
+
+@font-face {font-family: "Gotham Rounded"; src: url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot"); src: url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff") format("woff"), url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.svg#Gotham Rounded") format("svg"); }
+
+/* Gotham font */
+@import url(//db.onlinewebfonts.com/c/bd317adf74e5e7e564eb61ce9926cc6d?family=Gotham);
+
+@font-face {font-family: "Gotham"; src: url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.eot"); src: url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.woff") format("woff"), url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.svg#Gotham") format("svg"); }
+
+.nothing {
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+}
+
+
+/* The navbar starts here */
+.main-nvb {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: chartreuse;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  padding: 0 20px;
+}
+
+.bonsai-country {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.logo {
+  width: 52px;
+  height: 52px;
+}
+
+.logo-txt {
+  line-height: 16px;
+}
+
+.first-txt {
+  font-size: 20px;
+  font-family: 'Gotham';
+  font-weight: bolder;
+  color: #383838;
+  margin-top: 3px;
+}
+
+.scnd-txt {
+  font-family: 'Gotham Rounded';
+  color: #888888;
+  margin: 0 auto;
+}
