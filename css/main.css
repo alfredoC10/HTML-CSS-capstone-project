@@ -14,6 +14,23 @@
 
 @font-face {font-family: "Gotham"; src: url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.eot"); src: url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.woff") format("woff"), url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.svg#Gotham") format("svg"); }
 
+.helvetica-light {
+  font-family: 'Helvetica Neue LT Com';
+}
+
+.helvetica-bold {
+  font-family: 'Helvetica Neue LT Com';
+  font-weight: bolder;
+}
+
+.gotham {
+  font-family: 'Gotham';
+}
+
+.gotham-rounded {
+  font-family: 'Gotham Rounded';
+}
+
 .nothing {
   display: block;
   width: 100%;
@@ -27,20 +44,28 @@
   display: flex;
   width: 100%;
   height: 60px;
-  background-color: chartreuse;
   justify-content: space-between;
   align-items: center;
   position: sticky;
   top: 0;
   z-index: 3;
-  padding: 0 20px;
+  padding: 0 1.5vw;
 }
 
+.align-logo {
+  width: 31.6vw;
+}
 .bonsai-country {
   display: inline-flex;
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
+  margin-right: 0.5vw;
+}
+
+.logo-1 {
+  width: 35px;
+  height: 35px;
 }
 
 .logo {
@@ -62,6 +87,103 @@
 
 .scnd-txt {
   font-family: 'Gotham Rounded';
+  font-size: 14px;
   color: #888888;
   margin: 0 auto;
+}
+
+.bttn {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+}
+
+.bttn-red {
+  color: #383838;
+  background-color: #D35266;
+}
+
+.searchbox {
+  display: flex;
+  height: 30px;
+  align-items: center;
+  background-color: #383838;
+  border-radius: 30px;
+  margin-left: 1vw;
+}
+
+.searchbox:hover > .search-bttn {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: #f5f5f5;
+  font-size: 17px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+  width: 140px;
+  padding-left: 20px;
+}
+
+.search-txt::placeholder {
+  color: #f5f5f5;
+  font-family: 'Helvetica Neue LT Com';
+}
+
+.search-bttn {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  float: right;
+  color: #f5f5f5;
+  transition: 0.4s;
+  background-color: #383838;
+  border-radius: 50%;
+}
+
+.nvb-itm-spacing {
+  padding-right: 0.5vw;
+  margin-right: 0.5vw;
+}
+
+.nvb-links {
+  font-size: 16px;
+  color: #888888;
+}
+
+.nvb-links:hover {
+  text-decoration: none;
+  color: #383838;
+}
+
+.menu-i i {
+  font-size: 18px;
+  color: #888888;
+}
+
+
+/* The thematic picture starts here */
+.thematic {
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background: linear-gradient(transparent, rgb(0, 0, 0)), url();
 }
