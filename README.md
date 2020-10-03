@@ -61,3 +61,5 @@ Give a ⭐️ if you like this project!
 - W3schools
 - freeCodeCamp
 - Main icon designed by <a href="https://www.flaticon.es/icono-gratis/bonsai_1500021" title="smalllikeart">smalllikeart</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a>
+- Some icons are created by Icons8. Please either link or buy.
+- <a href="https://icons8.com/icon/109197/pottery">Pottery icon by Icons8</a>

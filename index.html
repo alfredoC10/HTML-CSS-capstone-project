@@ -6,96 +6,317 @@
   <link rel="stylesheet" href="./css/reset.css" type="text/css">
   <link rel="shortcut icon" href="./images/bonsai.png" type="image/png">
 
-  <!-- Gotham font -->
+<!-- Gotham font -->
   <link href="//db.onlinewebfonts.com/c/bd317adf74e5e7e564eb61ce9926cc6d?family=Gotham" rel="stylesheet" type="text/css"/>
 
-  <!-- Gotham Rounded Light font -->
+<!-- Gotham Rounded Light font -->
   <link href="//db.onlinewebfonts.com/c/1549fe8fd297f1e6501a3d6ad7f77394?family=Gotham+Rounded" rel="stylesheet" type="text/css"/>
 
-  <!-- Helvetica Neue LT Com font -->
+<!-- Helvetica Neue LT Com font -->
   <link href="//db.onlinewebfonts.com/c/81d87eba2f25b790803c324963f02063?family=Helvetica+Neue+LT+Com" rel="stylesheet" type="text/css"/>
 
+<!-- Helvetica Neue LT Com bold font -->
+  <link href="//db.onlinewebfonts.com/c/b812035768ba3b9e92b0a01c747eecbd?family=Helvetica+Neue" rel="stylesheet" type="text/css"/>
 
-
-  <!-- Bootstrap stylesheet link -->
+<!-- Bootstrap stylesheet link -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- fontawesome kit -->
+<!-- fontawesome kit -->
   <script src="https://kit.fontawesome.com/13a4f3443f.js" crossorigin="anonymous"></script>
 
-  <title>Everything for bonsai growing</title>
+  <title>Everything for the bonsai growing</title>
 </head>
 <body>
 
   <header>
-
-    <nav class="nothing">
-    </nav>
-
-    <!-- The navbar starts here -->
-    <nav class="main-nvb">
-      <div class="align-logo d-flex align-items-center justify-content-between">
-        <div class="bonsai-country">
-          <img class="logo-1 d-sm-none mr-1" src="./images/bonsai 2.png" alt="bonsai_logo">
-          <img class="logo d-none d-sm-inline-block mr-2" src="./images/bonsai 2.png" alt="bonsai_logo">
-          <div class="logo-txt d-none d-sm-flex flex-column justify-content-center">
-            <span class="first-txt">BONSAI</span>
-            <span class="scnd-txt">Country</span>
-          </div>
-        </div>
-        <div class="d-flex align-items-center">
-          <div class="dropdown d-none d-sm-inline-block">
-            <button class="bttn bttn-red dropdown-toggle helvetica-bold" type="button" 
-          id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" 
-          aria-expanded="false">
-              Stock
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item helvetica-light" href="#">Bonsai trees</a>
-              <a class="dropdown-item helvetica-light" href="#">Pots</a>
-              <a class="dropdown-item helvetica-light" href="#">Tools</a>
-              <a class="dropdown-item helvetica-light" href="#">T-shirts</a>
-              <a class="dropdown-item helvetica-light" href="#">Courses</a>
-            </div>
-          </div>
-          <div class="searchbox">
-            <input class="search-txt helvetica-light" type="text" placeholder="Look for any tree">
-            <a class="search-bttn" href="">
-              <i class="fas fa-search"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <ul class="d-none d-md-inline-block list-inline mb-0">
-        <li class="d-inline-block nvb-itm-spacing border-right border-secondary"><a class="nvb-links gotham-rounded" href="#">Home</a></li>
-        <li class="nvb-itm-spacing d-inline-block"><a class="nvb-links gotham-rounded" href="#">About</a></li>
-        <li class="nvb-itm-spacing d-none d-lg-inline-block"><a class="nvb-links gotham-rounded" href="#">Store</a></li>
-        <li class="nvb-itm-spacing d-none d-xl-inline-block"><a class="nvb-links gotham-rounded" href="#">Gallery</a></li>
-        <li class="nvb-itm-spacing d-none d-xl-inline-block"><a class="nvb-links gotham-rounded" href="#">Blog</a></li>
-        <li class="nvb-itm-spacing d-none d-xl-inline-block"><a class="nvb-links gotham-rounded" href="#">Forum</a></li>
-        <li class="nvb-itm-spacing d-inline-block"><a class="nvb-links gotham-rounded" href="#">Contact</a></li>
-        <li class="d-inline-block"><a class="nvb-links gotham-rounded" href="#">Purchase List</a></li>
-      </ul>
-      <div class="menu-i d-flex d-md-none">
-        <i class="fas fa-igloo ml-2"></i>
-        <i class="fas fa-bars ml-3"></i>
-      </div>
-    </nav>
-    <!-- The navbar ends here -->
-
+    <nav class="nothing"></nav>
   </header>
 
+<!-- The navbar starts here -->
+  <nav class="main-nvb">
+    <div class="align-logo d-flex align-items-center justify-content-between">
+      <div class="bonsai-country">
+        <img class="logo-1 d-sm-none mr-1" src="./images/bonsai 2.png" alt="bonsai_logo">
+        <img class="logo d-none d-sm-inline-block mr-2" src="./images/bonsai 2.png" alt="bonsai_logo">
+        <div class="logo-txt d-none d-sm-flex flex-column justify-content-center">
+          <span class="first-txt gotham dark-grey">BONSAI</span>
+          <span class="scnd-txt gotham-rounded grey">Country</span>
+        </div>
+      </div>
+      <div class="d-flex align-items-center">
+        <div class="dropdown d-none d-sm-inline-block">
+          <button class="bttn bttn-red dropdown-toggle helvetica-medium" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Stock
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item helvetica-light" href="#">Bonsai trees</a>
+            <a class="dropdown-item helvetica-light" href="#">Pots</a>
+            <a class="dropdown-item helvetica-light" href="#">Tools</a>
+            <a class="dropdown-item helvetica-light" href="#">Fertilizers & soils</a>
+          </div>
+        </div>
+        <div class="searchbox">
+          <input class="search-txt helvetica-light" type="text" placeholder="Look for any tree">
+          <a class="search-bttn" href="">
+            <i class="fas fa-search"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <ul class="d-none d-md-inline-block list-inline mb-0">
+      <li class="d-inline-block nvb-itm-spacing border-right border-secondary"><a class="nvb-links gotham-rounded" href="#">Home</a></li>
+      <li class="nvb-itm-spacing d-inline-block"><a class="nvb-links gotham-rounded" href="#">About</a></li>
+      <li class="nvb-itm-spacing d-none d-lg-inline-block"><a class="nvb-links gotham-rounded" href="#">Store</a></li>
+      <li class="nvb-itm-spacing d-none d-xl-inline-block"><a class="nvb-links gotham-rounded" href="#">Gallery</a></li>
+      <li class="nvb-itm-spacing d-none d-xl-inline-block"><a class="nvb-links gotham-rounded" href="#">Blog</a></li>
+      <li class="nvb-itm-spacing d-none d-xl-inline-block"><a class="nvb-links gotham-rounded" href="#">Forum</a></li>
+      <li class="nvb-itm-spacing d-inline-block"><a class="nvb-links gotham-rounded" href="#">Contact</a></li>
+      <li class="d-inline-block"><a class="nvb-links gotham-rounded" href="#"><i class="fas fa-shopping-cart grey mr-1"></i>Cart</a></li>
+    </ul>
+    <div class="menu-i d-flex d-md-none">
+      <i class="fas fa-igloo ml-2"></i>
+      <i class="fas fa-bars ml-3"></i>
+    </div>
+  </nav>
+
   <main>
-    <!-- The thematic picture strats here -->
-    <div class="thematic w-100"></div>
+
+<!-- The thematic picture starts here -->
+    <div class="thematic bckg-img-settings d-block w-100 justify-content-center align-content-center" ></div>
+
+<!-- Product lists start here -->
+    <div class="product-wrapping">
+      <!-- Bonsai trees -->
+      <div class="product-title border-bottom border-secondary pb-2 mb-4">
+        <img src="https://img.icons8.com/ios-glyphs/30/000000/bonsai.png"/>
+        <span class="gotham">Bonsai trees</span>
+        <span class="see-all gotham-rounded ml-3">See all  <i class="fas fa-chevron-right"></i></span>
+      </div>
+      <div class="product-grid">
+        <div class="grd-item d-flex flex-column align-items-end">
+          <div class="grd-img bonsai1 bckg-img-settings w-100"></div>
+          <h5 class="mr-2 mb-4 helvetica-medium grey">Juniper Bonsai</h5>
+          <div class="d-flex flex-column px-3 w-100 justify-content-between align-items-center">
+            <h6 class="mb-0 dark-grey helvetica-bold">$53.19</h6>
+            <button type="button" class="add helvetica-bold btn btn-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+        <div class="grd-item d-flex flex-column align-items-end">
+          <div class="grd-img bonsai2 bckg-img-settings w-100"></div>
+          <h5 class="mr-2 mb-4 helvetica-medium grey">Ficus Bonsai</h5>
+          <div class="d-flex flex-column px-3 w-100 justify-content-between align-items-center">
+            <h6 class="mb-0 dark-grey helvetica-bold">$55.50</h6>
+            <button type="button" class="add helvetica-bold btn btn-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+        <div class="grd-item d-flex flex-column align-items-end">
+          <div class="grd-img bonsai3 bckg-img-settings w-100"></div>
+          <h5 class="mr-2 mb-4 helvetica-medium grey">Jade Tree</h5>
+          <div class="d-flex flex-column px-3 w-100 justify-content-between align-items-center">
+            <h6 class="mb-0 dark-grey helvetica-bold">$13.99</h6>
+            <button type="button" class="add helvetica-bold btn btn-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+        <div class="grd-item d-flex flex-column align-items-end">
+          <div class="grd-img bonsai4 bckg-img-settings w-100"></div>
+          <h5 class="mr-2 mb-4 helvetica-medium grey">Carmona (Fukien)</h5>
+          <div class="d-flex flex-column px-3 w-100 justify-content-between align-items-center">
+            <h6 class="mb-0 dark-grey helvetica-bold">$144.25</h6>
+            <button type="button" class="add helvetica-bold btn btn-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Pots -->
+      <div class="product-title border-bottom border-secondary pb-2 mb-4">
+        <img src="https://img.icons8.com/material-sharp/24/000000/pottery.png"/>
+        <span class="gotham">Pots</span>
+        <span class="see-all gotham-rounded ml-3">See all  <i class="fas fa-chevron-right"></i></span>
+      </div>
+      <div class="product-grid">
+        <div class="grd-item d-flex flex-column align-items-end">
+          <div class="grd-img pot1 bckg-img-settings w-100"></div>
+          <h5 class="mr-2 mb-4 helvetica-medium grey">Chinese ceramic pot</h5>
+          <div class="d-flex flex-column px-3 w-100 justify-content-between align-items-center">
+            <h6 class="mb-0 dark-grey helvetica-bold">$18.5</h6>
+            <button type="button" class="add helvetica-bold btn btn-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+        <div class="grd-item d-flex flex-column align-items-end">
+          <div class="grd-img pot2 bckg-img-settings w-100"></div>
+          <h5 class="mr-2 mb-4 helvetica-medium grey">Yixing unglazed bonsai pot</h5>
+          <div class="d-flex flex-column px-3 w-100 justify-content-between align-items-center">
+            <h6 class="mb-0 dark-grey helvetica-bold">$62.36</h6>
+            <button type="button" class="add helvetica-bold btn btn-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+        <div class="grd-item d-flex flex-column align-items-end">
+          <div class="grd-img pot3 bckg-img-settings w-100"></div>
+          <h5 class="mr-2 mb-4 helvetica-medium grey">Yixing hand made pot</h5>
+          <div class="d-flex flex-column px-3 w-100 justify-content-between align-items-center">
+            <h6 class="mb-0 dark-grey helvetica-bold">$47.30</h6>
+            <button type="button" class="add helvetica-bold btn btn-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+        <div class="grd-item d-flex flex-column align-items-end">
+          <div class="grd-img pot4 bckg-img-settings w-100"></div>
+          <h5 class="mr-2 mb-4 helvetica-medium grey">Tokoname bonsai pot</h5>
+          <div class="d-flex flex-column px-3 w-100 justify-content-between align-items-center">
+            <h6 class="mb-0 dark-grey helvetica-bold">$97.98</h6>
+            <button type="button" class="add helvetica-bold btn btn-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- tools -->
+      <div class="product-title border-bottom border-secondary pb-2 mb-4">
+        <img src="https://img.icons8.com/android/20/000000/spade.png"/>
+        <span class="gotham">Tool kits</span>
+        <span class="see-all gotham-rounded ml-3">See all  <i class="fas fa-chevron-right"></i></span>
+      </div>
+      <div class="product-grid">
+        <div class="grd-item d-flex flex-column align-items-end">
+          <div class="grd-img tool1 bckg-img-settings w-100"></div>
+          <h5 class="mr-2 mb-4 helvetica-medium grey">Masakuni Tool Set - 9 Piece</h5>
+          <div class="d-flex flex-column px-3 w-100 justify-content-between align-items-center">
+            <h6 class="mb-0 dark-grey helvetica-bold">$1,107.89</h6>
+            <button type="button" class="add helvetica-bold btn btn-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+        <div class="grd-item d-flex flex-column align-items-end">
+          <div class="grd-img tool2 bckg-img-settings w-100"></div>
+          <h5 class="mr-2 mb-4 helvetica-medium grey">Kaneshin 6 piece tool set</h5>
+          <div class="d-flex flex-column px-3 w-100 justify-content-between align-items-center">
+            <h6 class="mb-0 dark-grey helvetica-bold">$488.35</h6>
+            <button type="button" class="add helvetica-bold btn btn-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+        <div class="grd-item d-flex flex-column align-items-end">
+          <div class="grd-img tool3 bckg-img-settings w-100"></div>
+          <h5 class="mr-2 mb-4 helvetica-medium grey">Goyoumatsu scissors</h5>
+          <div class="d-flex flex-column px-3 w-100 justify-content-between align-items-center">
+            <h6 class="mb-0 dark-grey helvetica-bold">$50.32</h6>
+            <button type="button" class="add helvetica-bold btn btn-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+        <div class="grd-item d-flex flex-column align-items-end">
+          <div class="grd-img tool4 bckg-img-settings w-100"></div>
+          <h5 class="mr-2 mb-4 helvetica-medium grey">Shovel, rake and spade kit</h5>
+          <div class="d-flex flex-column px-3 w-100 justify-content-between align-items-center">
+            <h6 class="mb-0 dark-grey helvetica-bold">$23.34</h6>
+            <button type="button" class="add helvetica-bold btn btn-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Fertilizers -->
+      <div class="product-title border-bottom border-secondary pb-2 mb-4">
+        <img src="https://img.icons8.com/ios-glyphs/20/000000/sugar-sack.png"/>
+        <span class="gotham">Fertilizers & Soils</span>
+        <span class="see-all gotham-rounded ml-3">See all  <i class="fas fa-chevron-right"></i></span>
+      </div>
+      <div class="product-grid">
+        <div class="grd-item d-flex flex-column align-items-end">
+          <div class="grd-img soil1 bckg-img-settings w-100"></div>
+          <h5 class="mr-2 mb-4 helvetica-medium grey">Bonsai Pro Fertilizer</h5>
+          <div class="d-flex flex-column px-3 w-100 justify-content-between align-items-center">
+            <h6 class="mb-0 dark-grey helvetica-bold">$16.95</h6>
+            <button type="button" class="add helvetica-bold btn btn-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+        <div class="grd-item d-flex flex-column align-items-end">
+          <div class="grd-img soil2 bckg-img-settings w-100"></div>
+          <h5 class="mr-2 mb-4 helvetica-medium grey">Tropical bonsai soil</h5>
+          <div class="d-flex flex-column px-3 w-100 justify-content-between align-items-center">
+            <h6 class="mb-0 dark-grey helvetica-bold">$55.50</h6>
+            <button type="button" class="add helvetica-bold btn btn-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+        <div class="grd-item d-flex flex-column align-items-end">
+          <div class="grd-img soil3 bckg-img-settings w-100"></div>
+          <h5 class="mr-2 mb-4 helvetica-medium grey">Hard Akadama Soil</h5>
+          <div class="d-flex flex-column px-3 w-100 justify-content-between align-items-center">
+            <h6 class="mb-0 dark-grey helvetica-bold">$31.99</h6>
+            <button type="button" class="add helvetica-bold btn btn-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+        <div class="grd-item d-flex flex-column align-items-end">
+          <div class="grd-img soil4 bckg-img-settings w-100"></div>
+          <h5 class="mr-2 mb-4 helvetica-medium grey">Nature's Blossom Kit</h5>
+          <div class="d-flex flex-column px-3 w-100 justify-content-between align-items-center">
+            <h6 class="mb-0 dark-grey helvetica-bold">$24.99</h6>
+            <button type="button" class="add helvetica-bold btn btn-sm mt-3">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </main>
 
-  <footer></footer>
+  <footer>
+<!-- Footer about brand -->
+    <div class="about-footer">
+      <section class="product-wrapping">
+        <div class="about d-flex justify-content-between align-items-center w-100">
+          <!-- logo and description -->
+          <div class="d-none d-sm-flex">
+            <div class="logo-txt d-none d-sm-flex flex-column justify-content-center">
+              <span class="first-txt gotham strd-txt">BONSAI</span>
+              <span class="scnd-txt gotham-rounded grey">Country</span>
+            </div>
+            <div class="lorem d-inline-flex flex-column ml-4 helvetica-light text-light">
+              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</span> 
+                <span>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+            </div>
+          </div>
+          <!-- shopping category list -->
+          <div class="category d-flex flex-column my-4">
+            <span class="gotham red">Categories</span>
+            <ul class="list-unstyled">
+              <li><a class="ft-link helvetica-medium text-white" href="#">Bonsai trees</a></li>
+              <li><a class="ft-link helvetica-medium text-white" href="#">Pots</a></li>
+              <li><a class="ft-link helvetica-medium text-white" href="#">Tools</a></li>
+              <li><a class="ft-link helvetica-medium text-white" href="#">Fertilizers & soils</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="social-media">
+          <div class="social">
+            <i class="fab fa-facebook-square" aria-hidden="true"></i>
+          </div>
+          <div class="social">
+            <i class="fab fa-twitter" aria-hidden="true"></i>
+          </div>
+          <div class="social">
+            <i class="fab fa-youtube" aria-hidden="true"></i>
+          </div>
+          <div class="social">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+          </div>
+          <div class="social">
+            <i class="fab fa-pinterest-p" aria-hidden="true"></i>
+          </div>
+          <div class="social">
+            <i class="fas fa-rss" aria-hidden="true"></i>
+          </div>
+          <div class="social">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+          </div>
+        </div>
+      </section>
+    </div>
+
+<!-- Copyright's footer -->
+    <div class="copy-footer">
+      <section class="product-wrapping"></section>
+    </div>
+
+    <a href="https://icons8.com/icon/109197/pottery">Pottery icon by Icons8</a>
+    <a href="https://icons8.com/icon/4811/spade">Spade icon by Icons8</a>
+    <a href="https://icons8.com/icon/95680/sugar-sack">Sugar Sack icon by Icons8</a>
+  </footer>
   
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
