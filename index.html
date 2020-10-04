@@ -27,7 +27,7 @@
 <!-- fontawesome kit -->
   <script src="https://kit.fontawesome.com/13a4f3443f.js" crossorigin="anonymous"></script>
 
-  <title>Everything for the bonsai growing</title>
+  <title>Everything for bonsai growing</title>
 </head>
 <body>
 
@@ -60,7 +60,7 @@
         </div>
         <div class="searchbox">
           <input class="search-txt helvetica-light" type="text" placeholder="Look for any tree">
-          <a class="search-bttn" href="">
+          <a class="search-bttn" href="./search_results.html">
             <i class="fas fa-search"></i>
           </a>
         </div>
@@ -77,7 +77,7 @@
       <li class="d-inline-block"><a class="nvb-links gotham-rounded" href="#"><i class="fas fa-shopping-cart grey mr-1"></i>Cart</a></li>
     </ul>
     <div class="menu-i d-flex d-md-none">
-      <i class="fas fa-igloo ml-2"></i>
+      <a href="./index.html"><i class="fas fa-igloo ml-2"></i></a>
       <i class="fas fa-bars ml-3"></i>
     </div>
   </nav>
@@ -85,7 +85,10 @@
   <main>
 
 <!-- The thematic picture starts here -->
-    <div class="thematic bckg-img-settings d-block w-100 justify-content-center align-content-center" ></div>
+    <div class="thematic d-flex flex-column bckg-img-settings d-block w-100 justify-content-center align-text-center" >
+      <h2 class="gotham-rounded mx-auto text-white">盆栽</h2>
+      <h5 class="gotham-rounded text-white mx-auto">Everything what your bonsai needs.</h5>
+    </div>
 
 <!-- Product lists start here -->
     <div class="product-wrapping">
@@ -254,10 +257,11 @@
   </main>
 
   <footer>
+
 <!-- Footer about brand -->
     <div class="about-footer">
       <section class="product-wrapping">
-        <div class="about d-flex justify-content-between align-items-center w-100">
+        <div class="d-flex justify-content-between align-items-center w-100">
           <!-- logo and description -->
           <div class="d-none d-sm-flex">
             <div class="logo-txt d-none d-sm-flex flex-column justify-content-center">
@@ -270,17 +274,18 @@
             </div>
           </div>
           <!-- shopping category list -->
-          <div class="category d-flex flex-column my-4">
+          <div class="category d-flex flex-column my-3">
             <span class="gotham red">Categories</span>
             <ul class="list-unstyled">
-              <li><a class="ft-link helvetica-medium text-white" href="#">Bonsai trees</a></li>
-              <li><a class="ft-link helvetica-medium text-white" href="#">Pots</a></li>
-              <li><a class="ft-link helvetica-medium text-white" href="#">Tools</a></li>
-              <li><a class="ft-link helvetica-medium text-white" href="#">Fertilizers & soils</a></li>
+              <li><a class="helvetica-medium text-white" href="#">Bonsai trees</a></li>
+              <li><a class="helvetica-medium text-white" href="#">Pots</a></li>
+              <li><a class="helvetica-medium text-white" href="#">Tools</a></li>
+              <li><a class="helvetica-medium text-white" href="#">Fertilizers & soils</a></li>
             </ul>
           </div>
         </div>
-        <div class="social-media">
+        <!-- social media icons -->
+        <div class="social-media mb-3">
           <div class="social">
             <i class="fab fa-facebook-square" aria-hidden="true"></i>
           </div>
@@ -307,13 +312,18 @@
     </div>
 
 <!-- Copyright's footer -->
-    <div class="copy-footer">
-      <section class="product-wrapping"></section>
+    <div class="d-flex">
+      <section class="product-wrapping d-flex flex-column justify-content-center align-content-center">
+        <p class="d-inline-block helvetica-light text-white mt-3 mx-auto"> © 2020 BonsaiCountry. All Rights Reserved. Developed by Huemac Alfredo C. Inspiration from Mohammed Awad's work and <a class="text-white" href="https://www.bonsaiempire.com/">Bonsai Empire</a>.</p>
+        <ul class="list-inline mx-auto">
+          <li class="list-inline-item"><a class="text-white helvetica-light" href="https://icons8.com/icon/109197/pottery">Pottery,</a></li>
+          <li class="list-inline-item"><a class="text-white helvetica-light" href="https://icons8.com/icon/4811/spade">Spade  and</a></li>
+          <li class="list-inline-item"><a class="text-white helvetica-light" href="https://icons8.com/icon/95680/sugar-sack">Sugar Sack icons 
+            by Icons8</a></li>
+        </ul>
+      </section>
     </div>
 
-    <a href="https://icons8.com/icon/109197/pottery">Pottery icon by Icons8</a>
-    <a href="https://icons8.com/icon/4811/spade">Spade icon by Icons8</a>
-    <a href="https://icons8.com/icon/95680/sugar-sack">Sugar Sack icon by Icons8</a>
   </footer>
   
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

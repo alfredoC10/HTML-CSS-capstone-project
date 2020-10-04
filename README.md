@@ -1,38 +1,51 @@
-# HTML-CSS-capstone-project
+# HTML-CSS-capstone-project (electronics online shop based project)
+This project is posible thanks to what I've learned along these months from software professionals by collaborating together in <a href="https://www.microverse.org/?grsf=thpoxf">Microverse</a>' Full-stack web Development HTML & CSS curriculum. The project goes about an online store with customized content that follows Mohammed <a href="https://www.behance.net/gallery/24796463/ZATTIX">Awad's ZATTIX</a> project guidelines and It's built based in a responsive design model and following HTML & CSS good prectices. 
 
-> This is a Youtube copy project for microverse students. We've implemented responsivness to the page and it has help us to learn lot of HTML and basic CSS. On the top of the page you will 
-find a navigation var that will scroll with the page, this was thanks to the position fixed property. As the main content you can find an iframe which holds the video player, the 
-resposiveness of the video was achivable thanks to the position relative and absolute properties. Also, on the same flex column you'll find the comments. Finally but not least, you will see 
-a playlist on the right, this was the other column of the main flex container. You can find the basic structure model on this link: https://app.lucidchart.com/documents/view/
-540f5686-66cc-4334-a18f-0fd01c9a2caf/fLIdogm_myHX
-
+## Home page desktop version
 ![screenshot]()
 
-Additional description about the project and its features.
+## Home page mobil version
+![screenshot]()
+
+## Search results page desktop version
+![screenshot]()
+
+## Search results page mobil version
+![screenshot]()
 
 ## Built With
 
 - HTML,
 - CSS,
-- Iframe, icons tag (fontawsome).
+- Media queries,
+- Bootstrap,
+- Iframe, icons tag (fontawsome, icons8, flaticon).
 
 ## Live Demo
 
 [Live Demo Link]()
 
-
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+#### Project specifications
 
+- There's a home page in which the store's latest deals are shown. This page links to a search results page.
+- There's a page that displays the results of a specific product search.
 
-To get a local copy up and running follow these simple example steps.
+Each of these pages displays differently in 2 versions of screen size:
+
+- Mobil version: up to 768px
+- Larger screens: above 768px
+
+To get a local copy up and running follow these simple example steps:
+
+### Prerequisites
+
+- Browser (Google Chrome, Mozilla Firefox, Safari or any other browser)
 
 ### Install: Clone the repo into your local machine and 
 
-### Usage: open de Youtube-Project.html file with your preffere
-
+### Usage: open de index.html file with your preffere
 
 
 ## Authors
@@ -41,13 +54,13 @@ To get a local copy up and running follow these simple example steps.
 
 - Github: [@githubhandle](https://github.com/Huemac-Alfredo)
 - Twitter: [@twitterhandle](https://twitter.com/AlfredoHuemac)
-- Linkedin: [linkedin](https://www.linkedin.com/in/huemac-alfredo-c%C3%B3rdova-torres-b28986136/)
+- Linkedin: [linkedin](https://www.linkedin.com/in/alfredo-huemac-c%C3%B3rdova-173b481b2/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/JbirdL86/Youtube-Project/issues).
+Feel free to check the [issues page](https://github.com/Huemac-Alfredo/HTML-CSS-capstone-project/issues).
 
 ## Show your support
 
@@ -57,9 +70,11 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- CodeCademy
 - W3schools
 - freeCodeCamp
-- Main icon designed by <a href="https://www.flaticon.es/icono-gratis/bonsai_1500021" title="smalllikeart">smalllikeart</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a>
-- Some icons are created by Icons8. Please either link or buy.
-- <a href="https://icons8.com/icon/109197/pottery">Pottery icon by Icons8</a>
+- Main logo designed by <a href="https://www.flaticon.es/icono-gratis/bonsai_1500021" title="smalllikeart">smalllikeart</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a>
+- Icons created by <a href="https://icons8.com/">Icons8</a>.
+- <a href="https://www.behance.net/gallery/24796463/ZATTIX">Mohammed Awad</a>, in whose design guidelines this work is based.
+- Also this work is inspired in <a href="https://www.bonsaiempire.com/">Bonsai Empire</a>
+
+
