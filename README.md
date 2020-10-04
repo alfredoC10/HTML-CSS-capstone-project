@@ -68,13 +68,12 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
 - Inspiration
 - W3schools
-- freeCodeCamp
 - Main logo designed by <a href="https://www.flaticon.es/icono-gratis/bonsai_1500021" title="smalllikeart">smalllikeart</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a>
 - Icons created by <a href="https://icons8.com/">Icons8</a>.
 - <a href="https://www.behance.net/gallery/24796463/ZATTIX">Mohammed Awad</a>, in whose design guidelines this work is based.
 - Also this work is inspired in <a href="https://www.bonsaiempire.com/">Bonsai Empire</a>
+- <a href="https://pixabay.com/es/">Pixabay.com</a> for free HD images
 
 
