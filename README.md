@@ -2,16 +2,16 @@
 This project is posible thanks to what I've learned along these months from software professionals by collaborating together in <a href="https://www.microverse.org/?grsf=thpoxf">Microverse</a>' Full-stack web Development HTML & CSS curriculum. The project goes about an online store with customized content that follows Mohammed <a href="https://www.behance.net/gallery/24796463/ZATTIX">Awad's ZATTIX</a> project guidelines and It's built based in a responsive design model and following HTML & CSS good prectices. 
 
 ## Home page desktop version
-![screenshot]()
+![screenshot](https://github.com/Huemac-Alfredo/HTML-CSS-capstone-project/blob/dev/images/desktop_home_screen.PNG)
 
-## Home page mobil version
-![screenshot]()
+## Home page mobile version
+![screenshot](https://github.com/Huemac-Alfredo/HTML-CSS-capstone-project/blob/dev/images/mobil_home_screen.PNG)
 
 ## Search results page desktop version
-![screenshot]()
+![screenshot](https://github.com/Huemac-Alfredo/HTML-CSS-capstone-project/blob/dev/images/desktop_results_screen.PNG)
 
-## Search results page mobil version
-![screenshot]()
+## Search results page mobile version
+![screenshot](https://github.com/Huemac-Alfredo/HTML-CSS-capstone-project/blob/dev/images/mobil_results_screen.PNG)
 
 ## Built With
 
@@ -23,7 +23,7 @@ This project is posible thanks to what I've learned along these months from soft
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://huemac-alfredo.github.io/HTML-CSS-capstone-project/.)
 
 ## Getting Started
 
@@ -34,7 +34,7 @@ This project is posible thanks to what I've learned along these months from soft
 
 Each of these pages displays differently in 2 versions of screen size:
 
-- Mobil version: up to 768px
+- Mobile version: up to 768px
 - Larger screens: above 768px
 
 To get a local copy up and running follow these simple example steps:
