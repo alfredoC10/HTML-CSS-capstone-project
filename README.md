@@ -1,4 +1,4 @@
-# HTML-CSS-capstone-project (electronics online shop based project)
+# HTML-CSS-capstone-project (electronics online store based project)
 This project is posible thanks to what I've learned along these months from software professionals by collaborating together in <a href="https://www.microverse.org/?grsf=thpoxf">Microverse</a>' Full-stack web Development HTML & CSS curriculum. The project goes about an online store with customized content that follows Mohammed <a href="https://www.behance.net/gallery/24796463/ZATTIX">Awad's ZATTIX</a> project guidelines and It's built based in a responsive design model and following HTML & CSS good prectices. 
 
 ## Home page desktop version
