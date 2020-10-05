@@ -49,7 +49,7 @@ To get a local copy up and running follow these simple example steps:
 
 ### Install: Clone the repo into your local machine and 
 
-### Usage: open de index.html file with your preffere
+### Usage: open de index.html file with your preffered text editor
 
 
 ## Authors
