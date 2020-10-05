@@ -4,6 +4,66 @@
   box-sizing: border-box;
 }
 
+/* /// FONTS /// */
+
+/* Helvetica Neue font */
+@import url(//db.onlinewebfonts.com/c/81d87eba2f25b790803c324963f02063?family=Helvetica+Neue+LT+Com);
+
+@font-face { font-family: "Helvetica Neue LT Com"; src: url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.eot"); src: url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.woff") format("woff"), url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.svg#Helvetica Neue LT Com") format("svg"); }
+
+/* Helvetica Neue Bold font */
+@import url(//db.onlinewebfonts.com/c/b812035768ba3b9e92b0a01c747eecbd?family=Helvetica+Neue);
+
+@font-face { font-family: "Helvetica Neue"; src: url("//db.onlinewebfonts.com/t/b812035768ba3b9e92b0a01c747eecbd.eot"); src: url("//db.onlinewebfonts.com/t/b812035768ba3b9e92b0a01c747eecbd.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b812035768ba3b9e92b0a01c747eecbd.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b812035768ba3b9e92b0a01c747eecbd.woff") format("woff"), url("//db.onlinewebfonts.com/t/b812035768ba3b9e92b0a01c747eecbd.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b812035768ba3b9e92b0a01c747eecbd.svg#Helvetica Neue") format("svg"); }
+
+/* Gotham Rounded light font */
+@import url(//db.onlinewebfonts.com/c/1549fe8fd297f1e6501a3d6ad7f77394?family=Gotham+Rounded);
+
+@font-face { font-family: "Gotham Rounded"; src: url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot"); src: url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot?#iefix") format
+("embedded-opentype"), url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff") format("woff"), url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.svg#Gotham Rounded") format("svg"); }
+
+/* Gotham font */
+@import url(//db.onlinewebfonts.com/c/bd317adf74e5e7e564eb61ce9926cc6d?family=Gotham);
+
+@font-face { font-family: "Gotham"; src: url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.eot"); src: url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.woff") format("woff"), url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.svg#Gotham") format("svg"); }
+
+/* font selectors */
+.helvetica-light {
+  font-family: 'Helvetica Neue LT Com', Arial, Helvetica, sans-serif;
+}
+
+.helvetica-medium {
+  font-family: 'Helvetica Neue LT Com', sans-serif;
+  font-weight: bolder;
+}
+
+.helvetica-bold {
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+.gotham {
+  font-family: 'Gotham', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.gotham-rounded {
+  font-family: 'Gotham Rounded', sans-serif;
+}
+
+/* Main colors */
+.red {
+  color: #d35266;
+}
+
+.dark-grey {
+  color: #383838;
+}
+
+.grey {
+  color: #888;
+}
+
+
 body {
   position: relative;
 }
@@ -161,7 +221,7 @@ header {
 .thematic {
   height: 55.4vh;
   background: linear-gradient(transparent, #0000008d), url(../images/theme_bonsai_3.jpg);
-  margin: 50px 0  100px;
+  margin-bottom: 100px;
 }
 
 .bckg-img-settings {
@@ -327,64 +387,6 @@ footer {
   border: 2.2px solid rgb(51, 51, 51);
 }
 
-/* /// FONTS /// */
-
-/* Helvetica Neue font */
-@import url(//db.onlinewebfonts.com/c/81d87eba2f25b790803c324963f02063?family=Helvetica+Neue+LT+Com);
-
-@font-face { font-family: "Helvetica Neue LT Com"; src: url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.eot"); src: url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.woff") format("woff"), url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/81d87eba2f25b790803c324963f02063.svg#Helvetica Neue LT Com") format("svg"); }
-
-/* Helvetica Neue Bold font */
-@import url(//db.onlinewebfonts.com/c/b812035768ba3b9e92b0a01c747eecbd?family=Helvetica+Neue);
-
-@font-face { font-family: "Helvetica Neue"; src: url("//db.onlinewebfonts.com/t/b812035768ba3b9e92b0a01c747eecbd.eot"); src: url("//db.onlinewebfonts.com/t/b812035768ba3b9e92b0a01c747eecbd.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b812035768ba3b9e92b0a01c747eecbd.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b812035768ba3b9e92b0a01c747eecbd.woff") format("woff"), url("//db.onlinewebfonts.com/t/b812035768ba3b9e92b0a01c747eecbd.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b812035768ba3b9e92b0a01c747eecbd.svg#Helvetica Neue") format("svg"); }
-
-/* Gotham Rounded light font */
-@import url(//db.onlinewebfonts.com/c/1549fe8fd297f1e6501a3d6ad7f77394?family=Gotham+Rounded);
-
-@font-face { font-family: "Gotham Rounded"; src: url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot"); src: url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.woff") format("woff"), url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1549fe8fd297f1e6501a3d6ad7f77394.svg#Gotham Rounded") format("svg"); }
-
-/* Gotham font */
-@import url(//db.onlinewebfonts.com/c/bd317adf74e5e7e564eb61ce9926cc6d?family=Gotham);
-
-@font-face { font-family: "Gotham"; src: url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.eot"); src: url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.woff") format("woff"), url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/bd317adf74e5e7e564eb61ce9926cc6d.svg#Gotham") format("svg"); }
-
-/* font selectors */
-.helvetica-light {
-  font-family: 'Helvetica Neue LT Com', Arial, Helvetica, sans-serif;
-}
-
-.helvetica-medium {
-  font-family: 'Helvetica Neue LT Com', sans-serif;
-  font-weight: bolder;
-}
-
-.helvetica-bold {
-  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
-}
-
-.gotham {
-  font-family: 'Gotham', Arial, Helvetica, sans-serif;
-  font-size: 20px;
-}
-
-.gotham-rounded {
-  font-family: 'Gotham Rounded', sans-serif;
-}
-
-/* Main colors */
-.red {
-  color: #d35266;
-}
-
-.dark-grey {
-  color: #383838;
-}
-
-.grey {
-  color: #888;
-}
-
 /* /// MEDIA QUERY /// */
 @media screen and (max-width: 768px) {
   .product-grid {
@@ -397,6 +399,14 @@ footer {
 @media screen and (max-width: 380px) {
   .see-all {
     font-size: 12px;
+  }
+
+  .thematic h1 {
+    font-size: 20px;
+  }
+
+  .thematic h5 {
+    font-size: 13px;
   }
 
   .product-grid {
@@ -418,6 +428,7 @@ footer {
     width: unset;
     margin: 0 0.5vw;
     font-size: 10px;
+    cursor: pointer;
   }
 
   .social:hover {
@@ -512,8 +523,13 @@ footer {
   }
 }
 
-@media screen and (max-width: 490px) {
-  .result-img {
-    display: none;
+@media screen and (max-width: 768px) {
+
+  .thematic2 h1 {
+    font-size: 20px;
+  }
+
+  .thematic2 h5 {
+    font-size: 13px;
   }
 }

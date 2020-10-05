@@ -27,7 +27,7 @@ This project is posible thanks to what I've learned along these months from soft
 
 ## Video presentation
 
-[Loom] (https://www.loom.com/share/225555b072b8448ea82c0d84fddabb7b)
+[Loom](https://www.loom.com/share/225555b072b8448ea82c0d84fddabb7b)
 
 ## Getting Started
 
