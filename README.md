@@ -13,8 +13,6 @@ This project is posible thanks to what I've learned along these months from soft
 ## Search results page mobile version
 ![screenshot](https://github.com/Huemac-Alfredo/HTML-CSS-capstone-project/blob/dev/images/mobil_results_screen.PNG)
 
-[mockup](https://www.mockupworld.co/free/responsive-web-design-showcase-mockup/)
-
 ## Built With
 
 - HTML,

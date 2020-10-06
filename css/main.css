@@ -222,7 +222,6 @@ header {
 /* The thematic picture starts here */
 .thematic {
   height: 55.4vh;
-  /* background: linear-gradient(transparent, #0000008d), url(../images/theme_bonsai_3.jpg); */
   background: linear-gradient(#d35265aa, transparent), url(../images/theme_bonsai_3.jpg);
   margin-bottom: 50px;
 }
@@ -502,7 +501,9 @@ footer {
   border-color: #d35266;
 }
 
-
+.bttn-srch:hover {
+  color: #fff;
+}
 
 /* The layout grid starts here */
 .layout-grid {
