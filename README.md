@@ -47,9 +47,9 @@ To get a local copy up and running follow these simple example steps:
 
 - Browser (Google Chrome, Mozilla Firefox, Safari or any other browser)
 
-### Install: Clone the repo into your local machine and 
+- Install: Clone the repo into your local machine and 
 
-### Usage: open de index.html file with your preffered text editor
+- Usage: open de index.html file with your preffered text editor
 
 
 ## Authors
