@@ -30,7 +30,7 @@ header {
 }
 
 main {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   padding-bottom: 60px;
 }
 
@@ -210,13 +210,13 @@ main {
   vertical-align: middle;
   user-select: none;
   border: 1px solid transparent;
-  padding: .375rem .75rem;
+  padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 2px;
 }
 
 .bttn-srch-nvb:hover {
-text-decoration: none;
+  text-decoration: none;
 }
 
 .menu-i i {
@@ -286,8 +286,8 @@ text-decoration: none;
 }
 
 .grd-item {
-  background-color: #ffffff;
-  border: 2px solid #E5E5E5;
+  background-color: #fff;
+  border: 2px solid #e5e5e5;
   border-radius: 1px;
 }
 
@@ -296,11 +296,11 @@ text-decoration: none;
   margin-bottom: 6px;
 }
 
-.add-to{
+.add-to {
   font-size: 8px;
   padding: 5px;
-  color: #BDBDBD;
-  border: 2px solid #E5E5E5;
+  color: #bdbdbd;
+  border: 2px solid #e5e5e5;
   border-radius: 1px;
   cursor: pointer;
 }
