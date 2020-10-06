@@ -213,6 +213,7 @@ main {
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
   border-radius: 2px;
+  cursor: pointer;
 }
 
 .bttn-srch-nvb:hover {
@@ -541,15 +542,31 @@ footer {
 }
 
 .result {
-  padding: 1.56vw;
-  border: 1px solid #888;
-  border-radius: 16px;
+  border: 2px solid #e5e5e5;
+  border-radius: 1px;
 }
 
 .result-img {
   width: 18.2vw;
-  height: 18.2vw;
+  height: 13vw;
   margin-right: 1.56vw;
+  position: relative;
+}
+
+.arr {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #383838;
+  cursor: pointer;  
+}
+
+.arr i {
+  font-size: 10px;
+}
+
+.card-location {
+  font-size: 14px;
 }
 
 .bonsai5 {
