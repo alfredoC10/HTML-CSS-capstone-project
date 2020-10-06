@@ -486,7 +486,7 @@ footer {
 
 /* The thematic picture starts here */
 .thematic2 {
-  height: 45vh;
+  height: 256px;
   background: linear-gradient(#0000008d, transparent), url(../images/bonsai_theme_7.jpg);
 }
 
@@ -572,7 +572,7 @@ footer {
     width: 90px;
     height: 90px;
   }
-  
+
   .thematic2 h1 {
     font-size: 20px;
   }
