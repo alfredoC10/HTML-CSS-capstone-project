@@ -397,6 +397,7 @@ footer {
 .scnd-txt-footer {
   font-size: 14px;
 }
+
 .lorem {
   font-size: 12px;
 }
@@ -558,7 +559,7 @@ footer {
   bottom: 0;
   right: 0;
   background-color: #383838;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 .arr i {
