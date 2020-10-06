@@ -89,7 +89,7 @@ header {
   top: 0;
   z-index: 4;
   padding: 0 1.5vw;
-  background-color: #fffffff6;
+  background-color: #383838f5;
 }
 
 .align-logo {
@@ -120,11 +120,13 @@ header {
 .first-txt {
   font-weight: bolder;
   margin-top: 3px;
+  color: #000;
 }
 
 .scnd-txt {
   font-size: 14px;
   margin: 0 auto;
+  color: #f8f8ff;
 }
 
 .bttn {
@@ -141,15 +143,16 @@ header {
 }
 
 .bttn-red {
-  color: #383838;
+  color: #1d1c1c;
   background-color: #d35266;
+  font-weight: bold;
 }
 
 .searchbox {
   display: flex;
   height: 30px;
   align-items: center;
-  background-color: #383838;
+  background-color: #1d1c1c;
   border-radius: 30px;
   margin-left: 1vw;
 }
@@ -164,7 +167,7 @@ header {
   float: right;
   color: #f5f5f5;
   transition: 0.4s;
-  background-color: #383838;
+  background-color: #1d1c1c;
   border-radius: 50%;
 }
 
@@ -199,11 +202,12 @@ header {
 .nvb-links {
   font-size: 16px;
   color: #888;
+  font-weight: bold;
 }
 
 .nvb-links:hover {
   text-decoration: none;
-  color: #383838;
+  color: #d35266;
 }
 
 .fa-shopping-cart {
@@ -218,8 +222,9 @@ header {
 /* The thematic picture starts here */
 .thematic {
   height: 55.4vh;
-  background: linear-gradient(transparent, #0000008d), url(../images/theme_bonsai_3.jpg);
-  margin-bottom: 100px;
+  /* background: linear-gradient(transparent, #0000008d), url(../images/theme_bonsai_3.jpg); */
+  background: linear-gradient(#d35265aa, transparent), url(../images/theme_bonsai_3.jpg);
+  margin-bottom: 50px;
 }
 
 .bckg-img-settings {
@@ -228,7 +233,23 @@ header {
   background-size: cover;
 }
 
-/* Porduct lists start here */
+/* slider starts here */
+.slider-wrapping {
+  max-width: 1070px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.slider-wrapping i {
+  font-size: 30px;
+}
+
+.sldr-img {
+  width: 150px;
+  height: 150px;
+}
+
+/* Product lists start here */
 .product-wrapping {
   max-width: 1100px;
   margin: 0 auto;
@@ -407,6 +428,11 @@ footer {
     font-size: 13px;
   }
 
+  .sldr-img {
+    width: 100px;
+    height: 100px;
+  }
+
   .product-grid {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
@@ -443,7 +469,7 @@ footer {
 /* The thematic picture starts here */
 .thematic2 {
   height: 45vh;
-  background: linear-gradient(transparent, #0000008d), url(../images/bonsai_theme_7.jpg);
+  background: linear-gradient(#0000008d, transparent), url(../images/bonsai_theme_7.jpg);
 }
 
 .bttn2 {
@@ -475,6 +501,8 @@ footer {
   font-size: 16px;
   border-color: #d35266;
 }
+
+
 
 /* The layout grid starts here */
 .layout-grid {

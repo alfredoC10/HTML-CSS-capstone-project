@@ -41,7 +41,7 @@
         <a href="./index.html"><img class="logo-1 d-sm-none mr-1" src="./images/bonsai_2.png" alt="bonsai_logo"></a>
         <a href="./index.html"><img class="logo d-none d-sm-inline-block mr-2" src="./images/bonsai_2.png" alt="bonsai_logo"></a>
         <div class="logo-txt d-none d-sm-flex flex-column justify-content-center">
-          <span class="first-txt gotham dark-grey">BONSAI</span>
+          <span class="first-txt gotham">BONSAI</span>
           <span class="scnd-txt gotham-rounded grey">Country</span>
         </div>
       </div>
@@ -73,7 +73,7 @@
       <li class="nvb-itm-spacing d-none d-xl-inline-block"><a class="nvb-links gotham-rounded" href="#">Blog</a></li>
       <li class="nvb-itm-spacing d-none d-xl-inline-block"><a class="nvb-links gotham-rounded" href="#">Forum</a></li>
       <li class="nvb-itm-spacing d-inline-block"><a class="nvb-links gotham-rounded" href="#">Contact</a></li>
-      <li class="d-inline-block"><a class="nvb-links gotham-rounded" href="#"><i class="fas fa-shopping-cart grey mr-1"></i>Cart</a></li>
+      <li class="d-inline-block"><a class="nvb-links gotham-rounded" href="#"><i class="fas fa-shopping-cart mr-1"></i>Cart</a></li>
     </ul>
     <div class="menu-i d-flex d-md-none">
       <a href="./index.html"><i class="fas fa-igloo ml-2"></i></a>
@@ -84,10 +84,63 @@
   <main>
 
 <!-- The thematic picture starts here -->
-    <div class="thematic d-flex flex-column bckg-img-settings d-block w-100 justify-content-center align-text-center" >
+    <div class="thematic d-flex flex-column bckg-img-settings d-block w-100 justify-content-center align-items-center" >
       <h1 class="gotham-rounded mx-auto text-white">盆栽</h1>
       <h5 class="gotham-rounded text-white mx-auto">Everything what your bonsai needs.</h5>
+      <div class="d-flex flex-column flex-sm-row align-items-center mt-2">
+        <!-- Category dropdown button -->
+        <div class="dropdown  mr-sm-2">
+          <button class="bttn2 gotham-rounded dropdown-toggle dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Category
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Bonsai trees</a>
+            <a class="dropdown-item" href="#">Pots</a>
+            <a class="dropdown-item" href="#">Tools</a>
+            <a class="dropdown-item" href="#">Fertlilizers & soils</a>
+          </div>
+        </div>
+        <!-- price dropdwon button -->
+        <div class="dropdown mr-sm-2 mt-1 mt-sm-0">
+          <button class="bttn2 gotham-rounded dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Price
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">$16 to $60</a>
+            <a class="dropdown-item" href="#">$60 to $300</a>
+            <a class="dropdown-item" href="#">$300 to $700</a>
+            <a class="dropdown-item" href="#">$700 to $1200</a>
+            <a class="dropdown-item" href="#">more than $1200</a>
+          </div>
+        </div>
+        <!-- Search bonsai  searchbox-->
+        <input class="srch-txt d-none d-md-inline-block gotham-rounded grey mr-2" type="text" placeholder="Search bonsai">
+        <!-- search button -->
+        <a href="./search_results.html"><button type="button" class="bttn-srch gotham-rounded btn mt-1 mt-sm-0">Search</button></a>
     </div>
+    </div>
+
+<!-- Slider starts here -->
+    <article class="slider-wrapping d-flex justify-content-center mb-5">
+      <div class="d-flex flex-column">
+        <h6 class="latest helvetica-medium grey">LATEST DEALS</h6>
+        <div class="d-flex justify-content-center align-items-center">
+          <i class="fas fa-chevron-left red mr-4"></i>
+          <div class="d-flex flex-column flex-md-row justify-content-center align-items-center">
+            <div class="sldr-img bonsai6 bckg-img-settings mr-4"></div>
+            <div class="sldr-txt d-flex flex-column">
+              <h3 class="red gotham mb-0">Rock Juniper</h3>
+              <span class="helvetica-medium grey">The Rocky Mountain Juniper grows in western North-America and can become a tall tree.</span>
+              <div class="d-flex flex-column flex-sm-row align-items-center justify-content-between mt-2">
+                <h6 class="mb-0 dark-grey helvetica-bold">$45</h6>
+                <button type="button" class="add helvetica-bold btn btn-sm mt-2 mt-sm-0">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <i class="fas fa-chevron-right red ml-4"></i>
+        </div>  
+      </div>
+    </article>
 
 <!-- Product lists start here -->
     <div class="product-wrapping">
