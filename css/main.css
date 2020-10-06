@@ -379,11 +379,12 @@ main {
 
 /* The footer with info about this brand starts here */
 footer {
-  background-color: #383838;
+  background-color: #fff;
 }
 
-.about-footer .product-wrapping {
-  border-bottom: 1px solid #888;
+.about-footer {
+  border-top: 2px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
 }
 
 .strd-txt {
@@ -392,6 +393,9 @@ footer {
   color: #000;
 }
 
+.scnd-txt-footer {
+  font-size: 14px;
+}
 .lorem {
   font-size: 12px;
 }
@@ -404,7 +408,7 @@ footer {
 }
 
 .social {
-  background: rgb(51, 51, 51);
+  background: #888;
   border-radius: 50%;
   display: block;
   height: 40px;
@@ -414,10 +418,11 @@ footer {
   margin: 0 0.5vw;
   color: rgb(255, 255, 255);
   font-size: 15px;
+  cursor: pointer;
 }
 
 .social:hover {
-  border: 2.2px solid rgb(51, 51, 51);
+  border: 2.2px solid #888;
 }
 
 /* /// MEDIA QUERY /// */
