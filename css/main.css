@@ -555,6 +555,11 @@ footer {
   background-image: url(../images/Bonsai_6.jpg);
 }
 
+.filter-title {
+  border-bottom: 1px solid #292b2c;
+  width: 180px;
+}
+
 /* /// MEDIA QUERY /// */
 
 @media screen and (max-width: 768px) {
@@ -567,9 +572,7 @@ footer {
     width: 90px;
     height: 90px;
   }
-}
-
-@media screen and (max-width: 768px) {
+  
   .thematic2 h1 {
     font-size: 20px;
   }
