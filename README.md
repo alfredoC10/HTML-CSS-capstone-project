@@ -23,11 +23,11 @@ This project is posible thanks to what I've learned along these months from soft
 
 ## Live Demo
 
-[Live Demo Link](https://huemac-alfredo.gihub.io/HTML-CSS-capstone-project/.)
+[Live Demo Link](https://huemac-alfredo.github.io/HTML-CSS-capstone-project/.)
 
 ## Video presentation
 
-[Loom](https://www.loom.com/share/225555b072b8448ea82c0d84fddabb7b)
+[Loom](https://www.loom/share/225555b072b8448ea82c0d84fddabb7b)
 
 ## Getting Started
 
