@@ -19,7 +19,7 @@ This project is posible thanks to what I've learned along these months from soft
 - CSS,
 - Media queries,
 - Bootstrap,
-- Iframe, icons tag (fontawsome, icons8, flaticon).
+- Iframe, icons tag (fontawsome, icons8, flaticon)
 
 ## Live Demo
 
