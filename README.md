@@ -23,7 +23,7 @@ This project is posible thanks to what I've learned along these months from soft
 
 ## Live Demo
 
-[Live Demo Link](https://huemac-alfredo.github.io/HTML-CSS-capstone-project/.)
+[Live Demo Link](https://huemac-alfredo.gihub.io/HTML-CSS-capstone-project/.)
 
 ## Video presentation
 
