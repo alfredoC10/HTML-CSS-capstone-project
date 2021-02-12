@@ -58,7 +58,7 @@ To get a local copy up and running follow these simple example steps:
 
 - Github: [@githubhandle](https://github.com/Huemac-Alfredo)
 - Twitter: [@twitterhandle](https://twitter.com/AlfredoHuemac)
-- Linkedin: [linkedin](https://www.linkedin.com/in/alfredo-huemac-c%C3%B3rdova-173b481b2/)
+- Linkedin: [linkedin](https://www.linkedin.com/in/alfredo-huemac/)
 
 ## 🤝 Contributing
 
